@@ -83,7 +83,7 @@ body {
   font-weight: 400;
   color: #757575;
   left: 10%;
-  z-index: 3;
+  z-index: 11;
 }
 
 #page > p {
@@ -102,6 +102,7 @@ body {
   top: 65%;
   right: 10%;
   font-weight: 500;
+  z-index: 11;
 }
 
 canvas {
