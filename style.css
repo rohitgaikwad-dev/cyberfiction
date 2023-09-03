@@ -37,6 +37,7 @@ body {
 #main {
   position: relative;
   overflow: hidden;
+  background-color: #f1f1f1;
 }
 
 #page {
@@ -76,26 +77,30 @@ body {
 }
 
 #page > h3 {
+  width: 30%;
   position: absolute;
   top: 55%;
   font-weight: 400;
   color: #757575;
-  left: 5%;
+  left: 10%;
   z-index: 3;
 }
 
 #page > p {
+  width: 30%;
   position: absolute;
   top: 55%;
   font-weight: 400;
   color: #757575;
-  right: 5%;
+  right: 10%;
+  text-align: end;
+  z-index: 11;
 }
 
 #page > h4 {
   position: absolute;
   top: 65%;
-  right: 20%;
+  right: 10%;
   font-weight: 500;
 }
 
@@ -103,20 +108,20 @@ canvas {
   max-width: 100vw;
   max-height: 100vh;
   position: relative;
-  z-index: 2;
+  z-index: 1;
 }
 
 #page1 {
   width: 100vw;
   height: 100vh;
   position: relative;
-  background-color: #f1f1f1;
+  z-index: 11;
 }
 
 #page1 > .left_text {
   position: absolute;
   top: 25%;
-  left: 10%;
+  left: 15%;
 }
 
 #page1 > .left_text > h3 {
@@ -150,7 +155,7 @@ canvas {
   width: 100vw;
   height: 100vh;
   position: relative;
-  background-color: #f1f1f1;
+  z-index: 11;
 }
 
 #page2 > .left_text {
@@ -170,6 +175,7 @@ canvas {
 }
 
 #page2 > .right_text {
+  width: 31%;
   position: absolute;
   top: 50%;
   right: 10%;
@@ -186,10 +192,11 @@ canvas {
   width: 100vw;
   height: 100vh;
   position: relative;
-  background-color: #f1f1f1;
+  z-index: 11;
 }
 
 #page3 > .left_text {
+  width: 31%;
   position: absolute;
   top: 25%;
   left: 10%;
